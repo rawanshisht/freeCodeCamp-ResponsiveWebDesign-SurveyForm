@@ -52,7 +52,7 @@ fieldset{
 .inline {
     width:unset;
     display: inline-block;
-    margin: 0 0.5em 0 0;
+    margin: 0 2px 0 0;
 }
 textarea{
     display: block;
