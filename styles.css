@@ -1,0 +1,74 @@
+body{
+    width: 80%;
+    margin: 20px auto;
+    object-fit: cover;
+    background-image: url("https://media.istockphoto.com/id/1468678659/photo/hands-documents-and-writing-with-a-woman-in-a-hospital-filling-out-an-application-or.jpg?s=1024x1024&w=is&k=20&c=y7Zv5xKPo3MB_mec1k6P2FvolHv5oPZe7EihSjN6nSw=");
+}
+#title, #description {
+    margin: 20px auto;
+    text-align: center;
+    font-size:28px;
+    color: rgb(30, 20, 66);
+}
+#description{
+    font-style: italic;
+}
+#survey-form{
+    background-color: lightblue;
+    width: 50%;
+    margin: auto auto;
+    padding:30px;
+    opacity: 0.9;
+}
+label{
+    margin-bottom:10px;
+}
+form label{
+    display: block;
+    font-size:24px;
+    color: rgb(30, 20, 66);
+}
+form label input , select{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 10px;
+    padding: 18px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 3px;
+    outline: none;
+}
+input:not([type="submit"]):focus, select:focus{
+    border: 3px solid #007bff;
+}
+fieldset{
+    border: none;
+    display: inline-block;
+    padding:0;
+    margin-bottom:10px;
+}
+.inline {
+    width:unset;
+    display: inline-block;
+    margin: 0 0.5em 0 0;
+}
+textarea{
+    display: block;
+    width:100%;
+    margin-bottom:20px;
+}
+input[type="submit"]{
+    width:100%;
+    height:35px;
+    background-color: green;
+    color:White;
+    font-size: 16px;
+    font-weight: bold;
+}
+input[type="radio"], input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
